@@ -26,5 +26,5 @@ Material:
     m_Floats:
     - _Rotate: 38
     m_Colors:
-    - _RotatePoint: {r: 0.649, g: 0.197, b: 0, a: 0}
+    - _RotatePoint: {r: 0.16999999, g: 0.68, b: 0, a: 0}
   m_BuildTextureStacks: []
