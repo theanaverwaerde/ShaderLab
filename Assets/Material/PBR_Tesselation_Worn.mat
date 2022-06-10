@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PBR_Fresnel_Worn
-  m_Shader: {fileID: 4800000, guid: f5acf32bc8b85fa4e9a206b72127297d, type: 3}
+  m_Name: PBR_Tesselation_Worn
+  m_Shader: {fileID: 4800000, guid: 36d3d47b97e0bd8c3a3c3290910c8f8c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: d70a6f0343b619545895b7c486ccd2ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 2b5723af08d59a547b6e5ab781151d80, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -32,17 +36,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66a6c47414b531c4ab267d283e8e30d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FresnelPower: 2.28
+    - _FresnelPower: 1
     - _Glossiness: 0.5
+    - _HeightScale: 0.06
     - _Metallic: 0
     - _NormalScale: 1
-    - _RoughnessSlider: 0.5
+    - _RoughnessSlider: 1
     - _RoughnessTEst: 1
+    - _Tess: 24.7
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 0.098296165, g: 0, b: 1, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MinMax: {r: 5, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
